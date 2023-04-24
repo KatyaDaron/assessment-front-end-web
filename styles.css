@@ -9,6 +9,7 @@ body {
 
 nav {
 	border-bottom: 2px solid orange;
+	margin-bottom: 40px;
 }
 
 ol {
@@ -33,6 +34,63 @@ input {
 	display: block;
 }
 
-img {
+input[type=radio] {
+	display: inline;
+}
+
+#duck-img {
 	max-width: 300px;
+	border-radius: 150px;
+}
+
+.btnFav {
+	background-color: yellow;
+	font-size: 15px;
+	border-radius: 25px;
+}
+
+div {
+    background-color: rgb(247, 243, 243);
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 2px;
+	text-align: center;
+    font-weight: bold;
+}
+  
+#profile-img {
+	max-width: 200px;
+    border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+}
+
+.social-icon {
+    color: rgb(57, 111, 204);
+    transition: color 0.2s;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 30px;
+}
+
+.social-icon:hover {
+    color: rgba(96, 96, 146, 0.417);
+}
+
+.tech-stack {
+    display: flex;
+    justify-content: space-between;
+    height: 6vh;
+}
+
+#intro {
+    text-align: center;
+	font-weight: lighter;
+}
+
+#list {
+	text-align: left;
+	font-weight: lighter;
 }

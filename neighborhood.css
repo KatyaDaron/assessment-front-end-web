@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+body {
+    background: #ddd;
+    font-family: "Open Sans", sans-serif;
+}
+  
+nav {
+    border-bottom: 2px solid orange;
+    padding-top: 1rem;
+    max-width: 500px;
+    margin: 2rem auto;
+}
+  
+ol {
+    padding-left: 0;
+}
+  
+.crumb {
+    margin-right: 2em;
+    display: inline;
+}
+  
+a {
+    color: orange;
+}
+  
+a:visited {
+    color: crimson;
+}
+
+.header {
+    background-image: url('images/brooklyn-main.webp');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: x-large;
+}
+
+.header-txt h1,
+.header-txt h2 {
+    color: white;
+}
+
+p {
+    background-color: white;
+    margin: 0;
+    padding: 40px;
+    text-align: justify;
+}
+
+.explore-by-category {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2px;
+}
+
+.img-container {
+    position: relative;
+    width: 33.33%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 50px;
+    border: 2px solid #fff;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgba(186, 183, 183, 0.5);
+}
+
+button:hover {
+    background-color: #555555;
+}
+
+.rest-card, .walk-card, .park-card {
+    position: relative;
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+}
+
+.rest-card img, .walk-card img, .park-card img {
+    width: 100%;
+    height: 300px; 
+    object-fit: cover; 
+}
+
+.title-txt h1 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: xxx-large;
+    color: rgb(105, 104, 104);
+    text-decoration: underline;
+}
+
+.type {
+    font-family: 'Alex Brush', cursive;
+    font-size: x-large;
+    background-color: white;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.name {
+    font-weight: bolder;
+    font-size: large;
+    background-color: white;
+    text-align: center;
+}
+
+.title-txt  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+#btnPick {
+    margin-top: 30px;
+}

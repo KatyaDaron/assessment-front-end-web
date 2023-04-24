@@ -10,15 +10,24 @@
 		<ol>
 	        <li class="crumb"><a href="./home.html">Home</a></li>
 	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+			<li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
 	        <li class="crumb"><a href="./about.html">About</a></li>
 	    </ol>
 	</nav>
 
 	<content>
-		<h1>Welcome to this little website.</h1>
+		<p>Hello World</p>
 		<!-- insert hello world here -->
 
-		<img src="https://devmountain.com/wp-content/uploads/2020/10/devmountain-logo3.png">
+		<img id="duck-img" src="images/duck.webp" alt="rubber duck picture">
+
+		<p>Welcome to our website! Ask us anything.</p>
+		
+		<ul>
+			<li>You're really special!</li>
+			<li>It's nice to have you here.</li>
+			<li>We appreciate you.</li>
+		</ul>
 
 		<h2>Contact Us</h2>
 		<form id="contact">
@@ -27,6 +36,16 @@
 
 			Message:
 			<input type="textarea">
+
+			How did you hear about us:<br>
+			<input type="radio" id="google" name="source" value="Google">
+			<label for="google">Google</label>
+				
+			<input type="radio" id="friend" name="source" value="Friend">
+			<label for="friend">A friend</label>
+	
+			<input type="radio" id="other" name="source" value="Other">
+			<label for="other">Other</label>
 
 			<input type="submit">
 
